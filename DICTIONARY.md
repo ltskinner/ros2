@@ -1,0 +1,4 @@
+# Dictionary
+
+- `package`
+- `executable`
