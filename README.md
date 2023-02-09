@@ -8,6 +8,11 @@ docker run -it -p 6080:80 --name ros2_humble tiryoh/ros2-desktop-vnc:humble
 
 http://127.0.0.1:6080/
 
+## Hotlinks
+
+- [commands](./COMMANDS.md)
+- [concepts](./CONCEPTS.md)
+- [dictionary](./DICTIONARY.md)
 
 ## Troubleshooting
 
@@ -20,8 +25,3 @@ http://127.0.0.1:6080/
 [To install WSL, Docker, and run humble verification](./HUMBLE_STARTUP.md)
 
 [List of Distributions](https://docs.ros.org/en/humble/Releases.html)
-
-## Dictionary and [Concepts](./CONCEPTS.md)
-
-- `package`
-- `executable`
