@@ -61,6 +61,8 @@ docker run -it --rm osrf/ros:humble-desktop ros2 run demo_nodes_py listener
 ```bash
 docker pull tiryoh/ros2-desktop-vnc:humble
 docker run -it -p 6080:80 tiryoh/ros2-desktop-vnc:humble
+# or, for named container
+docker run -it -p 6080:80 --name ros2_humble tiryoh/ros2-desktop-vnc:humble
 ```
 
 and go to: [http://127.0.0.1:6080/](http://127.0.0.1:6080/)
