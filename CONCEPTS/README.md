@@ -15,7 +15,7 @@ ROS2 is a `middleware` based on an anonymous **publish/subscribe** mechanism tha
 - `Services`
 - `Actions`
 
-## Nodes
+## [Nodes](./NODES.md)
 
 More on nodes - they are/can:
 
@@ -31,6 +31,8 @@ More on nodes - they are/can:
   - Same process
   - Different processes
   - Different machines
+
+## [Topics](./TOPICS.md)
 
 ## Discovery
 
