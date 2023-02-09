@@ -11,7 +11,7 @@ http://127.0.0.1:6080/
 ## Hotlinks
 
 - [commands](./COMMANDS.md)
-- [concepts](./CONCEPTS.md)
+- [concepts](./CONCEPTS/README.md)
 - [dictionary](./DICTIONARY.md)
 
 ## Troubleshooting
