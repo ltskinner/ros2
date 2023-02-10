@@ -41,7 +41,7 @@ More on nodes - they are/can:
 - 2. Nodes will re-advertize so that connections can be made with new entities joining the network (after the initial window)
 - 3. Nodes also advertise when they go offline
 
-## Services
+## [Services](./SERVICES.md)
 
 Ok this is sweet - you get to this from `rqt`
 

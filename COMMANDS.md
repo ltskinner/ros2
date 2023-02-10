@@ -46,9 +46,37 @@ ros2 topic pub --once /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0
 
 ### `ros2 topic hz <topic>` - see the rate at which data is being published
 
+## ros2 service
+
+### `ros2 service list -t` - list all services active
+
+### `ros2 service type <service_name>` - see what it does when making request or receiving request
+
+### `ros2 service find <type_name>` - find all services of a type
+
+- like `std_srvs/srv/Empty` or `turtlesim/srv/Spawn`
+
+### `ros2 service call <service_name> <service_type> <args>`
+
+this will clear the window of lines:
+
+`ros2 service call /clear std_srvs/srv/Empty`
+
+this will spawn a new boi:
+
+`ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"`
+
 ## ros2 interface
 
 ### `ros2 interface show <msg_type>` - prints like docstring
+
+here, returns are structured like:
+
+```bash
+<request_structure>
+---
+<response_structure>
+```
 
 ## RQT Commands
 
